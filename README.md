@@ -13,15 +13,16 @@ The application uses the following technologies:
 - [Facebook Prophet](https://facebook.github.io/prophet/)
 - [Google Colaboratory](https://colab.research.google.com/)
 
-## Installation Guide
+## Installation Guide (if not using Google Colaboratory)
 
 ```python
 
 pip install numpy
 pip install pandas
 pip install matplotlib
-conda install -c pyviz hvplot geoviews
-pip install -U scikit-learn
+conda install -c pyviz hvplot
+pip install pystan
+pip install fbprophet
 
 ```
 
